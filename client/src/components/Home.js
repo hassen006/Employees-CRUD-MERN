@@ -29,7 +29,8 @@ function Home() {
   // *Edit Users
   const editUser = (id) => {
     users.map((us) => {
-      if (us._id === id) setInputVal(us);
+      if (us._id === id) 
+      setInputVal(us);
     });
   };
   // *Edit Submit
